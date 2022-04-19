@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Local storage</h2>
+
+
+<script>
+  const array = [ [0,1] , [2,3] , [4,5] ]
+  const array2 = [1,3,4]
+
+  localStorage.setItem("arrayExample", JSON.stringify(array))
+  localStorage.setItem("arrayExample2", JSON.stringify(array2))
+
+  var x = JSON.parse(localStorage.getItem("arrayExample"))
+  console.log(x[0][1])
+  console.log(typeof(x))
+
+  localStorage.removeItem("arrayExample2")
+</script>
+
+</body>
+</html>
