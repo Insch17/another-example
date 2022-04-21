@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Login Form</h2>
+    <form>
+
+        <div class="form-username">
+            <i class="fa fa-user icon"></i>
+            <input type="email" class="input-field" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-password">
+            <i class="fa fa-key icon"></i>
+            <input type="password" class="input-field" id="psw" placeholder="Enter password">
+        </div>
+         
+        <button type="button" onclick="loginData()" id="save_btn" class="btn">Log In!</button>
+        
+        <a href="registration.html">
+            <button onclick="registration.html" type="button" id="save_btn" class="btn">Sign Up!</button>
+        </a>
+        
+    </form>
+</div>
+
+<script>
+    function loginData(){
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("psw").value;
+
+        var email1 = JSON.parse(localStorage.getItem("Email of user"));
+        var password1 = JSON.parse(localStorage.getItem("Password of user"));
+
+        if(email == email1 && password == password1){
+            console.log('log in successfully')
+        }
+        else{
+            console.log('log in fail')
+        }
+    }
+</script>
+
+</body>
+</html>

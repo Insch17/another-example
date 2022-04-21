@@ -1,0 +1,81 @@
+body,
+input {
+  font-family: "Trirong", serif;
+}
+.container{
+    align-items: center;
+    padding: 20px;
+    width: 20%;
+    min-height: 250px;
+    margin: auto;
+    background: linear-gradient(90deg, #87bdd8, #cfe0e8);
+    border-radius: 20px;
+}
+.icon{
+    display: block;
+    margin: auto;
+    background: #55e7fc;
+    padding: 18px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    color: crimson;
+    min-width: 15px;
+}
+.icon:hover{
+    color: #55e7fc;
+    background-color: red;
+}
+.form-username{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.form-password{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.form-group{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.input-field{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: #fefbd8;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    height: 50px;   
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    margin: 25px auto 25px auto;
+    padding: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;    
+    min-height: 40px;
+    width: 50%;
+    border: none;
+    color: #f1e3dd;
+    background: linear-gradient(90deg, #bccad6, #667292); 
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn:hover {
+    color: d6d4e0;
+    transition: ease 1s;
+    box-shadow: inset 300px 0 0 0 #622569;
+    cursor: pointer;
+}
