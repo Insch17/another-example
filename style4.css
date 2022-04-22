@@ -1,0 +1,39 @@
+.header{
+    display: block;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    font-family: 'trirong', sans-serif;
+}
+.line{
+    margin: 10px auto 30px auto;
+    height: 3px;
+    border: 0;
+    background: orange;
+    width: 150px;
+}
+.body{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: 900px;
+    height: 460px;
+}
+.text{
+    margin-left: 70px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p1{
+    margin-bottom: 70px;
+}
+.p2{
+    margin-bottom: 70px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+.andr{
+    margin-right: 10px;
+}

@@ -1,0 +1,69 @@
+.container{
+    margin-left: 600px;
+}
+.header{
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    font-family: 'trirong', sans-serif;
+}
+.line{
+    margin: 10px auto 30px auto;
+    height: 3px;
+    border: 0;
+    background: orange;
+    width: 150px;
+}
+.body{
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    width: 900px;
+    height: 460px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.field1{
+    margin: 10px 10px 10px 400px;
+    height: 25px;
+    width: 350px;
+}
+.field2{
+    margin: 10px 10px 10px 388px;
+    height: 25px;
+    width: 350px;
+}
+.field3{
+    margin: 10px 10px 10px 220px;
+    height: 25px;
+    width: 358px;
+}
+.field4{
+    margin: 10px 10px 10px 327px;
+    height: 20px;
+    width: 20px;
+}
+.cmt-field{
+    display: flex;
+}
+.cmt{
+    margin-top: 10px;
+}
+.field5{
+    margin: 10px 10px 10px 290px;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    margin: 30px 10px 10px 470px
+}
+.btn:hover{
+    color: blanchedalmond;
+    background-color: black;
+}
